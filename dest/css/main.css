@@ -621,5 +621,108 @@ body {
     width: 1240px;
     margin: 0 auto;
     background-color: white; }
+    
+#nav, #nav ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0; }
+
+#nav {
+  background-color: #2a2d32;
+  clear: both;
+  height: 53px;
+  padding: 0 auto;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-family: "UbuntuCondensed";
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 42px; }
+
+#nav li {
+  height: 100%;
+  background-color: #2a2d32;
+  float: left;
+  position: relative; }
+
+.home {
+  background-color: #248cec;
+  float: left;
+  position: relative;
+  border-left-style: none;
+  height: 100%; }
+
+#nav li a {
+  color: #FFFFFF;
+  display: block;
+  float: left;
+  font-weight: normal;
+  height: 30px;
+  padding: 23px 20px 0;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000000; }
+
+#nav li:hover > a {
+  color: #f4b60d; }
+
+/*
+//╨▓╤Л╨┤╨╡╨╗╨╡╨╜╨╕╨╡ ╨▒╨╗╨╛╨║╨░ ╨╝╨╡╨╜╤О ╨┐╤А╨╕ ╨╜╨░╨▓╨╡╨┤╨╡╨╜╨╕╨╕
+#nav li:hover, #nav a:focus, #nav a:hover, #nav a:active {
+  background: none repeat scroll 0 0 #248cec;
+  outline: 0 none;
+
+   // background-image: -moz-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(0,1,1) 100%);
+   // background-image: -webkit-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(0,1,1) 100%);
+   // background-image: -ms-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(0,1,1) 100%);
+  }
+*/
+#nav ul li a {
+  float: none; }
+
+.container-4 {
+  overflow: hidden;
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap; }
+
+.container-4 {
+  float: right;
+  margin: 0 auto;
+  padding: 7px; }
+
+.container-4 input#search {
+  width: 241px;
+  height: 38px;
+  background: #35383c;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #5d6063;
+  padding-left: 15px; }
+
+.container-4 input#search::-webkit-input-placeholder {
+  color: #5d6063; }
+
+.container-4 input#search:-moz-placeholder {
+  color: #5d6063; }
+
+.container-4 input#search::-moz-placeholder {
+  color: #5d6063; }
+
+.container-4 input#search:-ms-input-placeholder {
+  color: #5d6063; }
+
+.container-4 button.icon {
+  border: none;
+  background: #35383c;
+  height: 38px;
+  width: 58px; }
+
+.container-4 button.icon {
+  color: #5d6063; }
 
 /*# sourceMappingURL=main.css.map */
